@@ -28,7 +28,7 @@ body {
     flex-direction: row;
     position: relative;
     width: 100%;
-    bottom: 500px;
+    bottom: 490px;
     left: 350px;
     justify-content: flex-start;
 
@@ -40,6 +40,11 @@ body {
     flex-direction: column;
     width: 9%;
     color: white;
+}
+
+.sec-1 p {
+    position: relative;
+    bottom: 10px;
 }
 
 .flex-container h3 {
@@ -97,7 +102,7 @@ body {
 .title1 {
     display: flex;
     position: absolute;
-    bottom: 160px;
+    bottom: 175px;
     left: 500px;
     text-align: center;
     color: beige;
@@ -107,8 +112,20 @@ body {
 
 #footer-2 {
     background-color: wheat;
-    height: 30vh;
+    height: 40vh;
     grid-area: footer-2;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-logo {
+    background: url(../img/basic-logo.png);
+    height: 80px;
+    width: 100%;
+    background-size: 320px;
 }
 
 #footer-3 {
